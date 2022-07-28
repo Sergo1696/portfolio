@@ -1,0 +1,37 @@
+@import "style.css";
+@media (max-width:576px) {
+    #page-index  menu.menu-top {
+        max-width: 540px !important;
+    } 
+     #page-index  menu.menu-all {
+        max-width: 540px !important;
+    }
+}
+@media (max-width:768px) {
+    .timeline-block .icons {
+        position: absolute;
+        top: 0;
+        left: 28px;
+    }
+    #education .icon, #experience .icon {
+        margin-left: 0;
+    }
+    #education .timeline-content::before, #experience .timeline-content::before {
+        left: 29px;
+    }
+    .timeline-footer {
+        margin-left: 23px;
+    }
+    .timeline-block {
+        flex-direction: column;
+    }
+    .timeline-block .left {
+        text-align: left;
+    }
+    .timeline-block:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+    .timeline-block .right p, .timeline-block .left p  {
+        margin-top: 10px;
+    }
+}
