@@ -67,8 +67,7 @@ transition: all 1s;
  color: #00D7BB;
  text-decoration: none;
  }
- menu.menu-all .close  {
-     background-image: url(/img/cross.png);
+ menu.menu-all .close img {
  width: 58px;
  height: 58px;
  position: absolute;

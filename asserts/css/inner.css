@@ -67,8 +67,7 @@ transition: all 1s;
  color: #00D7BB;
  text-decoration: none;
  }
- menu.menu-all .close  {
-     background-image: url(/img/cross.png);
+ menu.menu-all .close img {
  width: 58px;
  height: 58px;
  position: absolute;
@@ -136,7 +135,7 @@ z-index: 1000;
     margin: auto;
 }
 header {
-    background: url(/img/page-portfolio/page-title-bg.jpg) center;
+    background: url('../../img/page-portfolio/page-title-bg.jpg') center;
     height: 260px;
     background-size: cover;
     display: flex;
